@@ -12,16 +12,13 @@
 }
 
 /*FUENTES*/
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-/*@import url(//db.onlinewebfonts.com/c/179429c3795fb9aed42c526bd1133cc0?family=SF+Pro+Display);*/
 @font-face { font-family: SFPro; src: url('../resources/fonts/SF.ttf'); }
 @font-face { font-family: SFProR; src: url('../resources/fonts/SFR.ttf'); } 
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Piazzolla', serif;
 	color:#262626;
+	font-weight: 600;
 }
 
 h6 {text-transform: uppercase;}
@@ -51,7 +48,7 @@ code span.orange{color:orange;}
 div.codebox {background-color: #f5f5f5;padding: 20px;}
 
 p{
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	width: 70%;
 }
 
